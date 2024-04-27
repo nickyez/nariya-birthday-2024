@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  background-color: #FFE6E6;
 }
 
 body {
@@ -126,7 +127,7 @@ body {
   position: absolute;
   width: 80px;
   top: -35px;
-  left: 41.5%;
+  left: 45%;
   /* transform: scale(0.1); */
 }
 
@@ -232,10 +233,14 @@ body {
   cursor: pointer;
 }
 
+#made-from {
+  font-size: 0.8rem;
+}
+
 /* Media Queries */
 @media screen and (max-height: 1000px) {
   .six .hat {
-    left: 40%;
+    left: 46%;
   }
 }
 
@@ -253,7 +258,7 @@ body {
 
 @media screen and (max-height: 850px) and (max-width: 450px) {
   .six .hat {
-    left: 32%;
+    left: 43%;
   }
 }
 
